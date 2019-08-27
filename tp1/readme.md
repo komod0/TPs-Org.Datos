@@ -1,3 +1,6 @@
+## Notebook en Kaggle
+
+
 ## Informe
 https://docs.google.com/document/d/1U-cCdz9mLbTJTAkp7kmF-VZ5WCEUuPRNRY0dMeQAoD8/edit
 
