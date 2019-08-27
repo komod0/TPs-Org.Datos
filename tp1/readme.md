@@ -50,9 +50,9 @@ sb.kdeplot(LO_QUE_SE_QUIERE_RAFICAR, shade = True, legend = False)
 - Cuidado: muy sensible a valores inusuales
 
 ### area: el área de cada curva en función del valor de cada valor.
-[*] X tiempo (casi siempre)
-[*] Y numérica (casi siempre, pero puede ser cualquier cosa)
-[*] NO es pintar por debajo de cada línea: fijarse que las áreas
+- X tiempo (casi siempre)
+- Y numérica (casi siempre, pero puede ser cualquier cosa)
+- NO es pintar por debajo de cada línea: fijarse que las áreas
     (colores) nunca se superponen: el área es proporcional al 
 	  valor de la variable, y debajo de la línea superarior se 
 	 tiene el área total.
@@ -60,143 +60,143 @@ sb.kdeplot(LO_QUE_SE_QUIERE_RAFICAR, shade = True, legend = False)
 
 # Comandos para pandas (agreguen los que quieran)
 
-#### trasponer
+- trasponer
 .T 																    
 
-#### primeros n
+- primeros n
 df.head(n)															 
 
-#### n al azar
+- n al azar
 df.sample(n)														 
 
-#### descripción dimensional
+- descripción dimensional
 df.shape
 
-#### metadata
+- metadata
 df.info()															   
 
-#### cantidad de no-NaN (igual que info)
+- cantidad de no-NaN (igual que info)
 df.count()	
 
-#### cantidad total, incluye NaN
+- cantidad total, incluye NaN
 len(df)	
 
-#### resumen de los numéricos
+- resumen de los numéricos
 df.describe() 	
 
-#### resumen de los no numéricos
+- resumen de los no numéricos
 df.describe(include = [numpy.object, pandas.Categorical])		    
 
-#### tipos de datos de las columnas
+- tipos de datos de las columnas
 df.dtypes															   
 
-#### cuántos hay de cada tipo
+- cuántos hay de cada tipo
 df.get_dtype_counts()	
 
-#### ARRAY DE valores únicos por columna
+- ARRAY DE valores únicos por columna
 df['COLUMNA'].unique()		
 
-#### hacer un sub data frame
+- hacer un sub data frame
 df[['COLUMNA1', 'COLUMNA2']]
 
-#### cantidad de nulos por columna
+- cantidad de nulos por columna
 df.isnull().sum()		
 
-#### top k mayores
+- top k mayores
 df.nlargest(n, 'NOMBRE')
 
-#### top k menores
+- top k menores
 df.nsmallest(n, 'NOMBRE')
 
-#### columnas con cierto tipo de datos
+- columnas con cierto tipo de datos
 df.select_dtypes(include = ['int65'])
 
-#### que contenga cierta palabra
+- que contenga cierta palabra
 df.filter(like = 'PALABRA')
 
-#### filtrar por expresión regular
+- filtrar por expresión regular
 df.filter(regex = '\')										
 
-#### ordenar por COLUMNA. Se puede poner más de una
+- ordenar por COLUMNA. Se puede poner más de una
 df.sort_values('COLUMNA')			
 
-#### mostrar de abajo hacia arriba
+- mostrar de abajo hacia arriba
 df.iloc[::-1]		
 
-#### rankear cada atributo
+- rankear cada atributo
 df.rank()															    	
 
 
 # Algunos comandos útiles de git (agreguen los que quieran)
 
-###  Para enviar algo 
+####  Para enviar algo 
 git pull repoDatos master
 git add " "
 git commit -m "Agrego nuestro archivo de prueba"
 git push repoDatos master
 
 
-### CONFIGURACIÓN INICIAL
+#### CONFIGURACIÓN INICIAL
 git config --global user.name "NOMBRE"
 git config --global user.email "MAIL"
 git config --list
 git init
 
-### AGREGAR REPOSITORIO EXTERNO
+#### AGREGAR REPOSITORIO EXTERNO
 git remote add <nombre> <url_repositorio>
 
-### BORRAR REPOSITORIO EXTERNO
+#### BORRAR REPOSITORIO EXTERNO
 git remote rm <nombre>
 
-### VER CUÁL ERA EL REPOSITORIO EXTERNO (en la parte de arriba)
+#### VER CUÁL ERA EL REPOSITORIO EXTERNO (en la parte de arriba)
 git show
 
-### TRAERTE INFORMACIÓN DEL MASTER DEL REPO
+#### TRAERTE INFORMACIÓN DEL MASTER DEL REPO
 git pull <nombre> master
 
-### HACER UN COMMIT Y SUBIRLO (SIEMPRE PULL ANTES)
+#### HACER UN COMMIT Y SUBIRLO (SIEMPRE PULL ANTES)
 git pull <nombre> master
 git add <algo>
 git commit -m "mensaje"
 git push <nombre> master
 
-### CONOCER LA URL DEL REPO EXTERNO
+#### CONOCER LA URL DEL REPO EXTERNO
 git remote get-url <nombre>
 
-### OBTENER ID DEL COMMIT
+#### OBTENER ID DEL COMMIT
 git rev-parse HEAD 
 
-### DESHACER UN COMMIT
+#### DESHACER UN COMMIT
 git reset HEAD~
 
-### SI NO TE DEJA HACER PULL/PUSH 
+#### SI NO TE DEJA HACER PULL/PUSH 
 git stash
 (y ahora volve a hacer el commit)
 
-### SI HICISTE LIO CON EL STASH/COMMIT
+#### SI HICISTE LIO CON EL STASH/COMMIT
 git init
 git stash
 git pull...
 
-### SI HICISTE MÁS LIO CON EL STASH/COMMIT
+#### SI HICISTE MÁS LIO CON EL STASH/COMMIT
 git rm -r --cached <carpeta>
 git commit -m "mensaje"
 
-### SI NO TE RECONOCE EL COMMIT
+#### SI NO TE RECONOCE EL COMMIT
 git init y arranca de nuevo
 
-### SI TE SIGUE SIN RECONOCER
+#### SI TE SIGUE SIN RECONOCER
 Fijate si no es un archivo considerado en el .gitignore
 Ver "deshacer un commit"
 
-### VER INFORMACIÓN DEL ÚLTIMO PULL
+#### VER INFORMACIÓN DEL ÚLTIMO PULL
 git info
 
-### CAMBIAR USUARIO (Windows)
+#### CAMBIAR USUARIO (Windows)
 Control Panel >> User Account >> Credential Manager >> Windows Credential
 Hacer un push para que te pida las credenciales
 
-### [ fatal: refusing to merge unrelated histories ]
+#### [ fatal: refusing to merge unrelated histories ]
 git pull REPOSITORIO master --allow-unrelated-histories
 git merge master YuGiOh/master
 ... add and commit here...
