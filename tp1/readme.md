@@ -1,5 +1,3 @@
-# Trabajo Práctico I
-
 ## Informe
 https://docs.google.com/document/d/1U-cCdz9mLbTJTAkp7kmF-VZ5WCEUuPRNRY0dMeQAoD8/edit
 
@@ -21,35 +19,35 @@ plt.ylabel("", fontsize = 14)
 plt.title("", fontsize = 14)
 
 ### scatter: puntos individuales
-[*] X numérica
-[*] Y numéricas
-[*] COLORES para comparaciones
-[*] Se puede agregar línea de tendencias (sin o con faceteo)
+- X numérica
+- Y numéricas
+- COLORES para comparaciones
+- Se puede agregar línea de tendencias (sin o con faceteo)
 
 ### bar: valor numérico para cada caso
-[*] X categórica
-[*] Y numérica, empezando en cero
-[*] COLORES para comparaciones
+- X categórica
+- Y numérica, empezando en cero
+- COLORES para comparaciones
 
 ### hist: cuántas veces una variable numérica toma distintos valores
-[*] X numérica (está ordenada)
-[*] Y numérica discreta
-[*] SIN COLOR
+- X numérica (está ordenada)
+- Y numérica discreta
+- SIN COLOR
 
 ### density: versión continua del histograma, para mostrar la distribución de X
-[*] Y ahora es continua
+- Y ahora es continua
 Para hacerlo (con seaborn)
 sb.kdeplot(LO_QUE_SE_QUIERE_RAFICAR, shade = True, legend = False)
 
 
 ### box: para visualizar distribución de la variable
-[*] Se pueden graficar varios boxplots para compararlos de acuerdo a una var. categórtica
+- Se pueden graficar varios boxplots para compararlos de acuerdo a una var. categórtica
 
 ### line: el clásico gráfico de ingresos en el tiempo de los dibujitos
-[*] X tiempo (casi siempre)
-[*] Y numérica (casi siempre, pero puede ser cualquier cosa)
-[*] Y se puede usar para un ranking (perdiendo la distancia entre los casos)
-[*] Cuidado: muy sensible a valores inusuales
+- X tiempo (casi siempre)
+- Y numérica (casi siempre, pero puede ser cualquier cosa)
+- Y se puede usar para un ranking (perdiendo la distancia entre los casos)
+- Cuidado: muy sensible a valores inusuales
 
 ### area: el área de cada curva en función del valor de cada valor.
 [*] X tiempo (casi siempre)
