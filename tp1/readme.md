@@ -12,6 +12,7 @@ https://pandas.pydata.org/pandas-docs/stable/
 
 ## Un par de páginas piolas para gráficos
 https://datavizproject.com/
+
 https://python-graph-gallery.com/
 
 # Consideraciones sobre los gráficos
@@ -60,7 +61,7 @@ sb.kdeplot(LO_QUE_SE_QUIERE_RAFICAR, shade = True, legend = False)
 - X tiempo (casi siempre)
 - Y numérica (casi siempre, pero puede ser cualquier cosa)
 - NO es pintar por debajo de cada línea: fijarse que las áreas
-    (colores) nunca se superponen: el área es proporcional al 
+   (colores) nunca se superponen: el área es proporcional al 
 	  valor de la variable, y debajo de la línea superarior se 
 	 tiene el área total.
 
@@ -133,6 +134,8 @@ df.iloc[::-1]
 - rankear cada atributo
 df.rank()															    	
 
+- Particiona a los datos en bins, x es la data a ser particionada y bins es una serie de enteros que indican cada uno de los bins
+df.cut(x, bins)
 
 # Algunos comandos útiles de git (agreguen los que quieran)
 
