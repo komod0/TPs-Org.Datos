@@ -16,8 +16,6 @@ y = dfPorMetros['Precio']
 # Tamaño del gráfico
 fig = plt.figure(figsize = (16, 8))
 ax = fig.add_subplot(111)
-ax.set_aspect('auto')
-
 
 # Tamaño de los títulos de los ejes
 plt.xlabel("Metros Cuadrados", fontsize = 20);
