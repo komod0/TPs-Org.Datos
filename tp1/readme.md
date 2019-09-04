@@ -22,15 +22,15 @@ https://python-graph-gallery.com/
 - Poner "Log-Log plot." para aclarar que es logarítmico.
 
 TRABAJAR CON ZOOM 100% TANTO EN EL INFORME COMO EN EL NOTEBOOK
-Figsize por defecto (SE PUEDE USAR OTRO, DEPENDIENDO SI QUE BIEN O NO): 
-fig = plt.figure(figsize = (15,  8))
-ax = fig.add_subplot(111)
+- Figsize por defecto (SE PUEDE USAR OTRO, DEPENDIENDO SI QUE BIEN O NO): 
+- fig = plt.figure(figsize = (15,  8))
+- ax = fig.add_subplot(111)
 
-Tamaño X por defecto: 17
-Tamaño Y por defecto: 17
-Tamaño X label: 20
-Tamaño Y label: 20
-Tamaño del Título (con "Camel Case"): 25
+- Tamaño X por defecto: 17
+- Tamaño Y por defecto: 17
+- Tamaño X label: 20
+- Tamaño Y label: 20
+- Tamaño del Título (con "Camel Case"): 25
 
 ### scatter: puntos individuales
 - X numérica
