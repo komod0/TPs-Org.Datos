@@ -21,9 +21,10 @@ plt.xlabel("Metros Cuadrados", fontsize = 25);
 plt.ylabel("Precio", fontsize = 25);
 
 # Título
-mp.rcParams.update( { 'axes.titlesize':'30' } )
-Si de esta manera(⬆️) te tira error,hacé :plt.rcParams.update( { 'axes.titlesize':'30' } )
 plt.title("PRECIO EN FUNCIÓN DE M2 CUBIERTOS")
+#Si de esta manera(⬆️) te tira error,hacé :plt.rcParams.update( { 'axes.titlesize':'30' } )
+# mp.rcParams.update( { 'axes.titlesize':'30' } )
+
 
 # Tamaño de las letras de los ejes
 plt.tick_params(axis='both', which='major', labelsize = 20)
