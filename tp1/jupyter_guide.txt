@@ -1,0 +1,107 @@
+Shift + Enter: ejecutar lo de la barra
+Ctrl + Enter: ejecutar lo seleccionado
+
+esc: modo de comandos
+esc + h: ayuda
+shift + tab: características de la función 
+dd : eliminar una línea.
+
+import pandas
+df = read_csv("URL DESDE DONDE ABRIMOS JUPYTER")
+df = read_json("URL DESDE DONDE ABRIMOS JUPYTER")
+df.to_excel()
+df.to_csv()
+
+inplace = True : por ejemplo, para que el drop na no haya que reasignarlo (lo haga ahi nomás).
+
+.T 																    #trasponer
+
+
+df = pd.DataFrame()												   #Crear nuevo dataframe
+df['COLUMNA'] = 0												   #Crear una nueva columna
+df['COLUMNA'] = df['COLUMNA'].astype(np.uint32)					   #Cambiar tipo de dato
+pd.Series( df['COLUMNA'], index = range(0, 25) )  				   #Crear una serie
+
+df.head(n)															#primeros n
+df.sample(n)														#n al azar
+df.shape															#descripción dimensional
+df.info()															#metadata
+df.count()															#cantidad de no-NaN (igual que info)
+len(df)																#cantidad total, incluye NaN
+len(dfPorPropiedad) - dfPorPropiedad.count()					    #cantidad de NaN
+df.describe() 														#resumen de los numéricos
+df.describe(include = [numpy.object, pandas.Categorical])		    #resumen de los no numéricos
+df.dtypes															#tipos de datos de las columnas
+df.get_dtype_counts()												#cuántos hay de cada tipo
+df['COLUMNA'].unique()											    #ARRAY DE valores únicos por columna
+df[['COLUMNA1', 'COLUMNA2']]										#hacer un sub data frame
+df.isnull().sum()													#cantidad de nulos por columna
+df.isnull().any()													#hay alguno que sea nulo
+df.nlargest(n, 'NOMBRE')											#top k mayores
+df.nsmallest(n, 'NOMBRE')											#top k menores
+df.select_dtypes(include = ['int65'])								#columnas con cierto tipo de datos
+df.filter(like = 'PALABRA')											#que contenga cierta palabra
+df.filter(regex = '\')												#filtrar por expresión regular
+df['COLUMNA'].value_counts()										# Cuántos hay de cada uno
+df.sort_values('COLUMNA')											#ordenar por COLUMNA. 
+																	# Se puede poner más de una
+df.iloc[::-1]														#mostrar de abajo hacia arriba
+df.rank()															#rankear cada atributo
+																	#tiene opciones para rankear por
+																	#distintas cosas y eso
+
+df.idxmax()															#idx del min
+df.idxmin()															#idx del max
+df.diff()															#compara con la fila anterior
+
+																	
+from IPython.display import display									#para no ver el df truncado
+with pd.option_context("display.max_rows", 1000000):
+    display(df)
+
+pd.merge(dfA, dfB, on = 'COLUMNA_QUE_UNE', how = 'inner')			#Join por columna
+																    #Join por índice
+
+
+
+
+pandas.concat()														#unir dos series en una
+
+
+
+df.plot.(kind = '
+
+scatter'): puntos individuales
+[*] X numérica
+[*] Y numéricas
+[*] COLORES para comparaciones
+[*] Se puede agregar línea de tendencias (sin o con faceteo)
+
+bar'): valor numérico para cada caso
+[*] X categórica
+[*] Y numérica, empezando en cero
+[*] COLORES para comparaciones
+
+hist'): cuántas veces una variable numérica toma distintos valores
+[*] X numérica (está ordenada)
+[*] Y numérica discreta
+[*] SIN COLOR
+
+density'): variante continua del histograma, para mostrar la distribución de X
+
+box'): para visualizar distribución de la variable
+[*] Se pueden graficar varios boxplots para compararlos de acuerdo a una var. categórtica
+
+line'): el clásico gráfico de ingresos en el tiempo de los dibujitos
+[*] X tiempo (casi siempre)
+[*] Y numérica (casi siempre, pero puede ser cualquier cosa)
+[*] Y se puede usar para un ranking (perdiendo la distancia entre los casos)
+[*] Cuidado: muy sensible a valores inusuales
+
+area'): el área de cada curva en función del valor de cada valor.
+[*] X tiempo (casi siempre)
+[*] Y numérica (casi siempre, pero puede ser cualquier cosa)
+[*] NO es pintar por debajo de cada línea: fijarse que las áreas
+    (colores) nunca se superponen: el área es proporcional al 
+	valor de la variable, y debajo de la línea superarior se 
+	tiene el área total.
