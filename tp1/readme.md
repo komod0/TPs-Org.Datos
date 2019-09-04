@@ -69,17 +69,17 @@ sb.kdeplot(LO_QUE_SE_QUIERE_RAFICAR, shade = True, legend = False)
 # Algunos comandos útiles de git (agreguen los que quieran)
 
 ####  Para enviar algo 
-git pull repoDatos master
-git add " "
-git commit -m "Agrego nuestro archivo de prueba"
-git push repoDatos master
+- git pull repoDatos master
+- git add " "
+- git commit -m "Agrego nuestro archivo de prueba"
+- git push repoDatos master
 
 
 #### CONFIGURACIÓN INICIAL
-git config --global user.name "NOMBRE"
-git config --global user.email "MAIL"
-git config --list
-git init
+- git config --global user.name "NOMBRE"
+- git config --global user.email "MAIL"
+- git config --list
+- git init
 
 #### AGREGAR REPOSITORIO EXTERNO
 git remote add <nombre> <url_repositorio>
@@ -94,10 +94,10 @@ git show
 git pull <nombre> master
 
 #### HACER UN COMMIT Y SUBIRLO (SIEMPRE PULL ANTES)
-git pull <nombre> master
-git add <algo>
-git commit -m "mensaje"
-git push <nombre> master
+- git pull <nombre> master
+- git add <algo>
+- git commit -m "mensaje"
+- git push <nombre> master
 
 #### CONOCER LA URL DEL REPO EXTERNO
 git remote get-url <nombre>
@@ -109,35 +109,36 @@ git rev-parse HEAD
 git reset HEAD~
 
 #### SI NO TE DEJA HACER PULL/PUSH 
-git stash
-(y ahora volve a hacer el commit)
+- (CORTAR y pegar afuera de la carpeta los archivos conflictivos)
+- git stash
+- (y ahora volver a hacer los cambios con el commit)
 
 #### SI HICISTE LIO CON EL STASH/COMMIT
-git init
-git stash
-git pull...
+- git init
+- git stash
+- git pull...
 
 #### SI HICISTE MÁS LIO CON EL STASH/COMMIT
-git rm -r --cached <carpeta>
-git commit -m "mensaje"
+- git rm -r --cached <carpeta>
+- git commit -m "mensaje"
 
 #### SI NO TE RECONOCE EL COMMIT
 git init y arranca de nuevo
 
 #### SI TE SIGUE SIN RECONOCER
-Fijate si no es un archivo considerado en el .gitignore
-Ver "deshacer un commit"
+- Fijate si no es un archivo considerado en el .gitignore
+- Ver "deshacer un commit"
 
 #### VER INFORMACIÓN DEL ÚLTIMO PULL
 git info
 
 #### CAMBIAR USUARIO (Windows)
-Control Panel >> User Account >> Credential Manager >> Windows Credential
-Hacer un push para que te pida las credenciales
+- Control Panel >> User Account >> Credential Manager >> Windows Credential
+- Hacer un push para que te pida las credenciales
 
 #### [ fatal: refusing to merge unrelated histories ]
-git pull REPOSITORIO master --allow-unrelated-histories
-git merge master YuGiOh/master
-... add and commit here...
-git push YuGiOh master
+- git pull REPOSITORIO master --allow-unrelated-histories
+- git merge master YuGiOh/master
+- ... add and commit here...
+- git push YuGiOh master
 
