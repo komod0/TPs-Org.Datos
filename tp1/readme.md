@@ -66,76 +66,7 @@ sb.kdeplot(LO_QUE_SE_QUIERE_RAFICAR, shade = True, legend = False)
 	 tiene el área total.
 
 
-# Comandos para pandas (agreguen los que quieran)
 
-- trasponer
-.T 																    
-
-- primeros n
-df.head(n)															 
-
-- n al azar
-df.sample(n)														 
-
-- descripción dimensional
-df.shape
-
-- metadata
-df.info()															   
-
-- cantidad de no-NaN (igual que info)
-df.count()	
-
-- cantidad total, incluye NaN
-len(df)	
-
-- resumen de los numéricos
-df.describe() 	
-
-- resumen de los no numéricos
-df.describe(include = [numpy.object, pandas.Categorical])		    
-
-- tipos de datos de las columnas
-df.dtypes															   
-
-- cuántos hay de cada tipo
-df.get_dtype_counts()	
-
-- ARRAY DE valores únicos por columna
-df['COLUMNA'].unique()		
-
-- hacer un sub data frame
-df[['COLUMNA1', 'COLUMNA2']]
-
-- cantidad de nulos por columna
-df.isnull().sum()		
-
-- top k mayores
-df.nlargest(n, 'NOMBRE')
-
-- top k menores
-df.nsmallest(n, 'NOMBRE')
-
-- columnas con cierto tipo de datos
-df.select_dtypes(include = ['int65'])
-
-- que contenga cierta palabra
-df.filter(like = 'PALABRA')
-
-- filtrar por expresión regular
-df.filter(regex = '\')										
-
-- ordenar por COLUMNA. Se puede poner más de una
-df.sort_values('COLUMNA')			
-
-- mostrar de abajo hacia arriba
-df.iloc[::-1]		
-
-- rankear cada atributo
-df.rank()															    	
-
-- Particiona a los datos en bins, x es la data a ser particionada y bins es una serie de enteros que indican cada uno de los bins
-df.cut(x, bins)
 
 # Algunos comandos útiles de git (agreguen los que quieran)
 
