@@ -23,7 +23,6 @@ https://python-graph-gallery.com/
 plt.xlabel("", fontsize = 14)
 plt.ylabel("", fontsize = 14)
 plt.title("", fontsize = 14)
-- El radix chart en python se llama polar chart 
 
 ### scatter: puntos individuales
 - X numérica
