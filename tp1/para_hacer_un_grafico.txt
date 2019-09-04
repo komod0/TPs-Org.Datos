@@ -21,10 +21,9 @@ plt.xlabel("Metros Cuadrados", fontsize = 25);
 plt.ylabel("Precio", fontsize = 25);
 
 # Título
-plt.title("PRECIO EN FUNCIÓN DE M2 CUBIERTOS")
+plt.title("PRECIO EN FUNCIÓN DE M2 CUBIERTOS", fontsize = 20)
 #Si de esta manera(⬆️) te tira error,hacé :plt.rcParams.update( { 'axes.titlesize':'30' } )
 # mp.rcParams.update( { 'axes.titlesize':'30' } )
-
 
 # Tamaño de las letras de los ejes
 plt.tick_params(axis='both', which='major', labelsize = 20)
@@ -43,3 +42,8 @@ plt.scatter(x, y, color = 'black')
 #Línea de regresión
     #ldt = np.poly1d( np.polyfit(x, y, 1) )
     #plt.plot(x, ldt(x), "g")
+    
+# Cajita indicadora de colores 
+#plt.legend(loc='upper right', bbox_to_anchor=(0.1, 0.1), prop={'size': 20})
+
+# Resetear parámetros: plt.rcParams.update(plt.rcParamsDefault)
