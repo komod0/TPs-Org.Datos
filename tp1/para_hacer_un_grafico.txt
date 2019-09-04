@@ -1,6 +1,6 @@
 dfPorMetros = pd.DataFrame()
 dfPorMetros['Metros'] = pd.Series( dfok['MetrosCuadradosCubiertos'].unique(), 
-                                index = dfok['MetrosCuadradosCubiertos'].unique() )
+                                index = dfok['MetrBosCuadradosCubiertos'].unique() )
 
 dfPorMetros['Precio'] = dfok.groupby('MetrosCuadradosCubiertos').mean()['Precio']
 
@@ -14,20 +14,23 @@ x = dfPorMetros['Metros']
 y = dfPorMetros['Precio']
 
 # Tamaño del gráfico
-grafico = plt.figure(figsize = (15, 10));
+fig = plt.figure(figsize = (16, 8))
+ax = fig.add_subplot(111)
+ax.set_aspect('auto')
+
 
 # Tamaño de los títulos de los ejes
-plt.xlabel("Metros Cuadrados", fontsize = 25);
-plt.ylabel("Precio", fontsize = 25);
+plt.xlabel("Metros Cuadrados", fontsize = 20);
+plt.ylabel("Precio", fontsize = 20);
 
 # Título
-plt.title("PRECIO EN FUNCIÓN DE M2 CUBIERTOS", fontsize = 20)
+plt.title("PRECIO EN FUNCIÓN DE M2 CUBIERTOS", fontsize = 25)
 #Si de esta manera(⬆️) te tira error,hacé :plt.rcParams.update( { 'axes.titlesize':'30' } )
 # mp.rcParams.update( { 'axes.titlesize':'30' } )
 
 # Tamaño de las letras de los ejes
-plt.tick_params(axis='both', which='major', labelsize = 20)
-plt.tick_params(axis='both', which='minor', labelsize = 20)
+plt.tick_params(axis='both', which='major', labelsize = 17)
+plt.tick_params(axis='both', which='minor', labelsize = 17)
 
 # Rotar ejes
 #plt.xticks(rotation = 90)
