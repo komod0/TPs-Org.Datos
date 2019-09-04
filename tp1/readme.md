@@ -4,9 +4,6 @@ Pendiente
 ## Informe
 https://docs.google.com/document/d/1U-cCdz9mLbTJTAkp7kmF-VZ5WCEUuPRNRY0dMeQAoD8/edit
 
-## Pendientes
-https://docs.google.com/spreadsheets/d/1CjCCyjQu7wG6GAMnjj8r6Q6EANdKf7q6V7l_auf2dw8/edit#gid=0
-
 ## Documentación de Pandas
 https://pandas.pydata.org/pandas-docs/stable/
 
@@ -16,6 +13,7 @@ https://datavizproject.com/
 https://python-graph-gallery.com/
 
 # Consideraciones sobre los gráficos
+- Si no necesito color,usar solo negro
 - Antes de hacerlo, hacer una pregunta interesante que lo justifique
 - Deben empezar en cero
 - El formato (figsize) debe coincidir con el tamaño de los ejes
