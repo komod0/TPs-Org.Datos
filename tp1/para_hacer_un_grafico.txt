@@ -22,6 +22,7 @@ plt.ylabel("Precio", fontsize = 25);
 
 # Título
 mp.rcParams.update( { 'axes.titlesize':'30' } )
+Si de esta manera(⬆️) te tira error,hacé :plt.rcParams.update( { 'axes.titlesize':'30' } )
 plt.title("PRECIO EN FUNCIÓN DE M2 CUBIERTOS")
 
 # Tamaño de las letras de los ejes
