@@ -20,9 +20,17 @@ https://python-graph-gallery.com/
 - Ponerles título, y nombres a los ejes
 - Debe estar asociado a una conclusión interesante sobre los datos
 - Poner "Log-Log plot." para aclarar que es logarítmico.
-plt.xlabel("", fontsize = 14)
-plt.ylabel("", fontsize = 14)
-plt.title("", fontsize = 14)
+
+TRABAJAR CON ZOOM 100% TANTO EN EL INFORME COMO EN EL NOTEBOOK
+Figsize por defecto (SE PUEDE USAR OTRO, DEPENDIENDO SI QUE BIEN O NO): 
+fig = plt.figure(figsize = (15,  8))
+ax = fig.add_subplot(111)
+
+Tamaño X por defecto: 17
+Tamaño Y por defecto: 17
+Tamaño X label: 20
+Tamaño Y label: 20
+Tamaño del Título (con "Camel Case"): 25
 
 ### scatter: puntos individuales
 - X numérica
