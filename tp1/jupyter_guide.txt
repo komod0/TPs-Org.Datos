@@ -1,9 +1,12 @@
 Shift + Enter: ejecutar lo de la barra
 Ctrl + Enter: ejecutar lo seleccionado
 
-esc: modo de comandos
+esc: modo de comandos (desde modo edición)
+enter: modo de edición (desde modo de comandos)
 esc + h: ayuda
 shift + tab: características de la función 
+a: crear nueva celda por arriba de la actual
+b: crear nueva celda por debajo de la actual
 dd : eliminar una línea.
 
 import pandas
