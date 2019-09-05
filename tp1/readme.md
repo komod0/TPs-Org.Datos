@@ -1,5 +1,6 @@
 ## Notebook en Kaggle
-Pendiente
+
+
 
 ## Informe
 https://docs.google.com/document/d/1U-cCdz9mLbTJTAkp7kmF-VZ5WCEUuPRNRY0dMeQAoD8/edit
@@ -13,7 +14,7 @@ https://datavizproject.com/
 https://python-graph-gallery.com/
 
 # Consideraciones sobre los gráficos
-- Si no necesito color,usar solo negro
+- Si no necesito color, usar solo negro
 - Antes de hacerlo, hacer una pregunta interesante que lo justifique
 - Deben empezar en cero
 - El formato (figsize) debe coincidir con el tamaño de los ejes
@@ -23,9 +24,8 @@ https://python-graph-gallery.com/
 
 TRABAJAR CON ZOOM 100% TANTO EN EL INFORME COMO EN EL NOTEBOOK
 - Figsize por defecto (SE PUEDE USAR OTRO, DEPENDIENDO SI QUE BIEN O NO): 
-- fig = plt.figure(figsize = (15,  8))
-- ax = fig.add_subplot(111)
-
+- `fig = plt.figure(figsize = (15,  8))`
+- `ax = fig.add_subplot(111)`
 - Tamaño X por defecto: 17
 - Tamaño Y por defecto: 17
 - Tamaño X label: 20
@@ -33,12 +33,14 @@ TRABAJAR CON ZOOM 100% TANTO EN EL INFORME COMO EN EL NOTEBOOK
 - Tamaño del Título (con "Camel Case"): 25
 
 ### scatter: puntos individuales
+
 - X numérica
 - Y numéricas
 - COLORES para comparaciones
 - Se puede agregar línea de tendencias (sin o con faceteo)
 
 ### bar: valor numérico para cada caso
+
 - X categórica
 - Y numérica, empezando en cero
 - COLORES para comparaciones
@@ -51,7 +53,7 @@ TRABAJAR CON ZOOM 100% TANTO EN EL INFORME COMO EN EL NOTEBOOK
 ### density: versión continua del histograma, para mostrar la distribución de X
 - Y ahora es continua
 Para hacerlo (con seaborn)
-sb.kdeplot(LO_QUE_SE_QUIERE_RAFICAR, shade = True, legend = False)
+`sb.kdeplot(LO_QUE_SE_QUIERE_RAFICAR, shade = True, legend = False)`
 
 
 ### box: para visualizar distribución de la variable
@@ -77,76 +79,76 @@ sb.kdeplot(LO_QUE_SE_QUIERE_RAFICAR, shade = True, legend = False)
 # Algunos comandos útiles de git (agreguen los que quieran)
 
 ####  Para enviar algo 
-- git pull repoDatos master
-- git add " "
-- git commit -m "Agrego nuestro archivo de prueba"
-- git push repoDatos master
+- `git pull repoDatos master`
+- `git add archivo_con_cambios`
+- `git commit -m "Agrego nuestro archivo de prueba"`
+- `git push repoDatos master`
 
 
 #### CONFIGURACIÓN INICIAL
-- git config --global user.name "NOMBRE"
-- git config --global user.email "MAIL"
-- git config --list
-- git init
+- `git config --global user.name "NOMBRE"`
+- `git config --global user.email "MAIL"`
+- `git config --list`
+- `git init`
 
 #### AGREGAR REPOSITORIO EXTERNO
-git remote add <nombre> <url_repositorio>
+- `git remote add <nombre> <url_repositorio>`
 
 #### BORRAR REPOSITORIO EXTERNO
-git remote rm <nombre>
+- `git remote rm <nombre>`
 
 #### VER CUÁL ERA EL REPOSITORIO EXTERNO (en la parte de arriba)
-git show
+- `git show`
 
 #### TRAERTE INFORMACIÓN DEL MASTER DEL REPO
-git pull <nombre> master
+- `git pull <nombre> master`
 
 #### HACER UN COMMIT Y SUBIRLO (SIEMPRE PULL ANTES)
-- git pull <nombre> master
-- git add <algo>
-- git commit -m "mensaje"
-- git push <nombre> master
+- `git pull <nombre> master`
+- `git add <algo>`
+- `git commit -m "mensaje"`
+- `git push <nombre> master`
 
 #### CONOCER LA URL DEL REPO EXTERNO
-git remote get-url <nombre>
+- `git remote get-url <nombre>`
 
 #### OBTENER ID DEL COMMIT
-git rev-parse HEAD 
+- `git rev-parse HEAD`
 
-#### DESHACER UN COMMIT
-git reset HEAD~
+#### DESHACER UN COMMIT(LOCAL)
+- `git reset HEAD~`
 
 #### SI NO TE DEJA HACER PULL/PUSH 
 - (CORTAR y pegar afuera de la carpeta los archivos conflictivos)
-- git stash
+- `git stash`
 - (y ahora volver a hacer los cambios con el commit)
 
 #### SI HICISTE LIO CON EL STASH/COMMIT
-- git init
-- git stash
-- git pull...
+- `git init`
+- `git stash`
+- `git pull...`
 
 #### SI HICISTE MÁS LIO CON EL STASH/COMMIT
-- git rm -r --cached <carpeta>
-- git commit -m "mensaje"
+- `git rm -r --cached <carpeta>`
+- `git commit -m "mensaje"`
 
 #### SI NO TE RECONOCE EL COMMIT
-git init y arranca de nuevo
+- `git init` y arranca de nuevo
 
 #### SI TE SIGUE SIN RECONOCER
 - Fijate si no es un archivo considerado en el .gitignore
 - Ver "deshacer un commit"
 
 #### VER INFORMACIÓN DEL ÚLTIMO PULL
-git info
+- `git info`
 
 #### CAMBIAR USUARIO (Windows)
 - Control Panel >> User Account >> Credential Manager >> Windows Credential
 - Hacer un push para que te pida las credenciales
 
 #### [ fatal: refusing to merge unrelated histories ]
-- git pull REPOSITORIO master --allow-unrelated-histories
-- git merge master YuGiOh/master
+- `git pull REPOSITORIO master --allow-unrelated-histories`
+- `git merge master YuGiOh/master`
 - ... add and commit here...
-- git push YuGiOh master
+- `git push YuGiOh master`
 
