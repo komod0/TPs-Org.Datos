@@ -56,6 +56,7 @@ df.rank()															#rankear cada atributo
 df.idxmax()															#idx del min
 df.idxmin()															#idx del max
 df.diff()															#compara con la fila anterior
+Serie.to_frame()													#convierte una Serie a DataFrame
 
 																	
 from IPython.display import display									#para no ver el df truncado
