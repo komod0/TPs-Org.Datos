@@ -148,7 +148,7 @@ Para hacerlo (con seaborn)
 
 #### [ fatal: refusing to merge unrelated histories ]
 - `git pull REPOSITORIO master --allow-unrelated-histories`
-- `git merge master YuGiOh/master`
+- `git merge master REPOSITORIO/master`
 - ... add and commit here...
-- `git push YuGiOh master`
+- `git push REPOSITORIO master`
 
