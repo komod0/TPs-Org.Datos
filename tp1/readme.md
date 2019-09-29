@@ -1,6 +1,5 @@
 ## Notebook en Kaggle
-
-
+https://www.kaggle.com/edjeordjian/75-06-2c-2019-tp1-grupo-4
 
 ## Informe
 https://docs.google.com/document/d/1U-cCdz9mLbTJTAkp7kmF-VZ5WCEUuPRNRY0dMeQAoD8/edit
