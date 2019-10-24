@@ -31,7 +31,7 @@ https://scikit-learn.org/stable/
 ---
 
 ### Bibliografía y material:
-- Hands‑On Machine Learning with Scikit‑Learn and TensorFlow(Ideal, súper begginer-friendly y tiene ejemplos especifico sobre predicción de precio de propiedades)
+- Hands‑On Machine Learning with Scikit‑Learn and TensorFlow(Ideal, súper begginer-friendly y tiene ejemplos especifico sobre predicción de precio de propiedades): https://b-ok.cc/book/5207527/b6e3a9
 - https://builtin.com/data-science/introduction-to-machine-learning
 - https://metacademy.org
 - https://machinelearningmastery.com/start-here/
