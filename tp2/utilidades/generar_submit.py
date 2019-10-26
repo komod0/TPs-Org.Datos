@@ -10,8 +10,7 @@ def generar_submit(X, y, metodo, test, nombre, transf=True):
     import pandas as pd
     import numpy as np
     from utilidades.limpiar import limpiar
-    import os
-    print(os.getcwd())
+
     if transf:
         y = np.log(y)
     reg = metodo()
