@@ -52,3 +52,9 @@ def desdolarizar(df, y):
     valor_dolar = obtener_precios()
     df["precio"] = df.apply(lambda x: x["precio"]*valor_dolar[(x["anio"], x["mes"], x["dia"])], axis=1)
     return df["precio"].values
+
+
+def agregar_dolar_como_feature(df):
+    valor_dolar = obtener_precios()
+    df["valor_dolar"] = df.apply(lambda x: valor_dolar[(x["anio"], x["mes"], x["dia"])], axis=1)
+    return df
