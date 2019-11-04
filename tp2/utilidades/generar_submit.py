@@ -1,4 +1,4 @@
-def generar_submit(X, y, metodo, test, nombre, transf=True):
+def generar_submit(X, y, metodo, test, nombre, transf=True, **kwargs):
     """
     X: datos de entrenamiento
     y: target de X
@@ -9,15 +9,15 @@ def generar_submit(X, y, metodo, test, nombre, transf=True):
     """
     import pandas as pd
     import numpy as np
-    from utilidades.limpiar import limpiar
 
     if transf:
         y = np.log(y)
-    reg = metodo()
+    reg = metodo(**kwargs)
     reg.fit(X, y)
 
-    ids = test["id"]
-    test = limpiar(test)
+    test_ori = pd.read_csv("../data/test.csv")
+
+    ids = test_ori["id"]
     y_pred = reg.predict(test)
     if transf:
         y_pred = np.exp(y_pred)

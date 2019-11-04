@@ -1,4 +1,4 @@
-def validar(X, y, metodo, transf=True):
+def validar(X, y, metodo, transf=True, **kwargs):
 
     """
     X: datos de entrenamiento
@@ -20,7 +20,7 @@ def validar(X, y, metodo, transf=True):
         if transf:
             y_train = np.log(y_train)
         # Me creo una instancia del modelo y luego lo entreno con los datos(con fit(X,y))
-        reg_t = metodo()
+        reg_t = metodo(**kwargs)
         reg_t.fit(X_train, y_train)
         predicciones_t = reg_t.predict(X_test)
         if transf:
