@@ -1,0 +1,876 @@
+ciudad,poblacion
+Benito Juárez,151893
+La Magdalena Contreras,238431
+Tonalá,408759
+Zinacantepec,54220
+Zapopan,1142483
+Coyoacán,620416
+Oaxaca de Juárez,255029
+Playa del Carmen,149923
+Villa de Alvarez,117600
+Ixtapaluca,322271
+San Luis Potosí,722772
+San Pedro Garza García,122009
+Querétaro,626495
+Naucalpan de Juárez,792211
+Monterrey,1135512
+Ciudad Madero,1185772
+Cancún,628306
+Apodaca,467157
+Puebla,1434062
+Miguel Hidalgo,372889
+Mérida,777615
+Huixquilucan,124846
+Emiliano Zapata,1339
+Tampico,309003
+Atizapán de Zaragoza,489160
+Tlalpan,574577
+Acapulco de Juárez,673479
+Iztacalco,384326
+Villahermosa,353577
+Cuautitlán Izcalli,484573
+Irapuato,380941
+Epazoyucan,3168
+Metepec,28205
+Cuauhtémoc,531831
+Alvaro Obregón,726664
+Tultitlán,206081
+San Pedro Cholula,87897
+Venustiano Carranza,1185772
+Coacalco de Berriozábal,277959
+Valle de Bravo,25554
+Boca del Río,9947
+Tlajomulco de Zúñiga,86935
+León,1238962
+San Andrés Cholula,87897
+Chihuahua,809232
+San Nicolás de los Garza,443273
+Santa Catarina,268347
+Aguascalientes,722250
+Cuernavaca,338650
+Xochimilco,407885
+Tlalnepantla de Baz,653410
+Tequisquiapan,29799
+Hermosillo,715061
+Montemorelos,45108
+Milpa Alta,18274
+Gustavo A. Madero,1185772
+Morelia,597511
+Tijuana,1300983
+Jesús María,643
+Guadalajara,1495182
+La Paz,215178
+Chapala,316
+Cuajimalpa de Morelos,160491
+Delicias,118071
+Iztapalapa,1815786
+Calimaya,11165
+Azcapotzalco,414711
+Torreón,608836
+Durango,518709
+Los Cabos,68463
+Pátzcuaro,55298
+Caborca,59922
+Culiacán,675773
+San Luis Río Colorado,158089
+Tuxtla Gutiérrez,537102
+Jiutepec,162427
+San Pedro Mixtepec -Dto. 22 -,25902
+Veracruz,428323
+Gral. Escobedo,352444
+Toluca,489333
+Tepic,332863
+San Juan del Río,138878
+Cuautla,154358
+Guanajuato,1238962
+Tultepec,65338
+Mazatlán,381583
+Solidaridad,149923
+Cuautlancingo,25104
+Ecatepec de Morelos,1655015
+Pachuca,256584
+Tepeji del Río de Ocampo,34151
+Manzanillo,130035
+Tecámac,242272
+Nacajuca,11289
+Alvarado,63743
+Corregidora,71254
+Huehuetoca,11948
+Tepatitlán de Morelos,91959
+Santiago,626495
+Navojoa,113836
+Guadalupe,673616
+El Marqués,79743
+Temixco,97788
+Arteaga,626495
+Juárez,1321004
+Cárdenas,91558
+Soledad de Graciano Sánchez,255015
+Yautepec,42731
+Colima,137383
+Mexicali,689775
+Tlayacapan,7989
+Xalapa,424755
+Conkal,7173
+Paraíso,25186
+Puerto Vallarta,203342
+Lerma,22713
+Ixtlahuaca,2751
+Ocoyucan,4747
+Tlaquepaque,575942
+Saltillo,709671
+Nezahualcóyotl,1104585
+Santa Isabel Xiloxoxtla,4436
+Progreso,264439
+San Miguel de Allende,69811
+Jocotepec,18852
+Tlaxcala,84670
+Ocotlán,83769
+Xochitepec,19164
+Comala,9442
+Motul,23240
+Ramos Arizpe,66554
+Villa del Carbón,39587
+Navolato,29153
+Mineral de la Reforma,68704
+Cuautitlán,484573
+Tláhuac,305076
+Nicolás Romero,281799
+Temozón,6553
+Yauhquemecan,4204
+Coyame del Sotol,709
+Gómez Palacio,257352
+Chetumal,151243
+Atlixco,86690
+Zumpango,50742
+Cadereyta Jiménez,68111
+Centro,353577
+Ensenada,279765
+Tulancingo de Bravo,102406
+Altamira,59536
+Xalisco,35702
+Ahome,256613
+Tizayuca,43250
+Carmen,169466
+Coatzacoalcos,235983
+Ayala,6777
+Chimalhuacán,612383
+Campeche,220389
+Calpulalpan,33263
+Gral. Zuazua,9898
+Tula de Allende,28577
+Monclova,215271
+Tepotzotlán,38119
+Dzemul,3228
+Chiautempan,84670
+Atlatlahucan,7941
+Texcoco,105165
+Fortín,21370
+Guaymas,113082
+Tenancingo,11636
+Tarímbaro,6049
+Jacona,56934
+Zihuatanejo de Azueta,67408
+Tuxpan,84750
+Mexicaltzingo,9693
+Nogales,212533
+Orizaba,120844
+Celaya,340387
+San Antonio la Isla,220
+San Cristóbal de las Casas,158027
+Apizaco,49506
+Yauhquemehcan,4204
+San Mateo Atenco,67890
+Pánuco,40754
+García,122009
+Santa María Huatulco,7409
+Amozoc,77106
+Reynosa,589466
+Tlalmanalco,14786
+Atlautla,10967
+Huitzilac,4568
+Cajeme,298625
+Chalco,168720
+Kanasín,77240
+Bacalar,11513
+Comapa,4832
+San Martín Texmelucan,75518
+Bahía de Banderas,13098
+Tochtepec,6615
+Totolac,6989
+Jilotepec,11828
+Tecate,64764
+Santa María Colotepec,1369
+Santa Cruz Tlaxcala,4848
+Acambay,5807
+El Salto,21644
+Atotonilco de Tula,8154
+Medellín,11168
+Tepoztlán,14130
+Zacatecas,129011
+Castaños,23649
+Ocotlán de Morelos,15016
+Córdoba,140896
+Chiquilistlán,3683
+Cosoleacaque,22454
+Mexquitic de Carmona,1428
+Tapalpa,5782
+Amealco de Bonfil,7698
+Coscomatepec,15252
+Huichapan,9051
+Nazareno Etla,1851
+Puerto Peñasco,56756
+Uruapan,264439
+Ciénega de Flores,15162
+Atizapán,489160
+Nuevo Laredo,373725
+Lázaro Cárdenas,79200
+Aldama,1238962
+Coatepec,53621
+Huejotzingo,25684
+Ixtapan de la Sal,17640
+Melchor Ocampo,79200
+Zitácuaro,84307
+Ocoyoacac,26015
+Valle de Chalco Solidaridad,356352
+Telchac Puerto,1722
+Acuña,134233
+Huamantla,51996
+Cazones de Herrera,1111
+Homún,6146
+Cihuatlán,18164
+Tehuacán,248716
+Zacatelco,38466
+La Piedad,83323
+Berriozábal,277959
+otra,20000
+Chilpancingo de los Bravo,187251
+Ocozocoautla de Espinosa,39180
+Tala,35396
+San Gregorio Atzompa,4378
+Valladolid,48973
+Salamanca,160169
+Chiapa de Corzo,45077
+Silao,74242
+San Pablo Etla,3658
+Tapachula,202672
+Lerdo,489333
+Xalatlaco,15043
+Ixtlahuacán de los Membrillos,6137
+Natívitas,60000
+Huasca de Ocampo,538
+Santa Cruz Xoxocotlán,67086
+Capulhuac,20757
+Allende,69811
+Tecomán,85689
+Coatepec Harinas,7243
+Tulum,18233
+Macuspana,32225
+Zapotlán el Grande,97750
+Xico,356352
+Comitán de Domínguez,97537
+La Barca,35219
+TlaltizapAn de Zapata,10563
+Almoloya de Juárez,16509
+Dolores Hidalgo Cuna de la Independencia Nacional,59240
+Cozumel,77236
+Colón,5483
+Teziutlán,58699
+PolotitlAn,2881
+Zacoalco de Torres,18172
+Zacapu,50112
+Atlacomulco,22774
+Huimilpan,1542
+Papalotla de Xicohténcatl,22969
+Banderilla,19649
+Mazamitla,7865
+Zempoala,9249
+Chapultepec,1015
+Tlaxco,14806
+Tihuatlán,14417
+Zamora,141627
+Ixtacuixtla de Mariano Matamoros,6527
+Chicoloapan,172919
+Parras,33817
+Teoloyucan,51255
+Comalcalco,41458
+Guasave,71196
+Sabinas,54905
+Dzitás,2879
+San Jacinto Amilpas,13860
+Tenango del Valle,21765
+Acolman,102667
+Pánuco de Coronado,1291
+Hidalgo del Parral,104836
+Santa Cruz Acatepec,1077
+Apaseo el Grande,26121
+Salina Cruz,76596
+José María Morelos,64431
+Sucilá,3785
+Rafael Lara Grajales,10054
+Contla de Juan Cuamatzi,27610
+Matehuala,77328
+Nextlalpan,14871
+Coroneo,4024
+Mineral del Monte,11015
+Temoaya,3301
+Abalá,1890
+Chicxulub Pueblo,4080
+San Felipe,28452
+Ciudad Valles,124644
+Temascalapa,6314
+Catemaco,27615
+Miacatlán,7212
+Coronango,14859
+Minatitlán,112046
+San José Iturbide,23471
+Cuerámaro,13948
+Linares,63104
+Tolimán,1393
+Xonacatlán,20680
+Tonatico,7565
+ácatlán,16307
+Juan C. Bonilla,5728
+Salinas Victoria,8979
+La Antigua,988
+Abasolo,27389
+Matamoros,449815
+Sayula,13980
+Jojutla,18867
+Villa de Reyes,10383
+AnAhuac,14116
+Santiago Miahuatlán,13909
+Ursulo Galván,12077
+Malinalco,8045
+Jilotzingo,8523
+Tepechitlán,4600
+Cocula,14548
+Magdalena Apasco,2824
+Yobaín,1820
+Gutiérrez Zamora,13651
+Tetla de la Solidaridad,15161
+El Llano,14559
+Victoria,305155
+Otzolotepec,1126
+Jocotitlán,7575
+Othón P. Blanco,151243
+Ahuazotepec,2351
+Playas de Rosarito,65278
+Tepetlixpa,13239
+Atenco,67890
+Calkiní,14934
+ApetatitlAn de Antonio Carvajal,2338
+Tequixquiac,22676
+Santa Cruz Amilpas,10120
+Teuchitlán,2199
+Mayapán,3263
+San Fernando,29171
+El Espinal,7616
+Charo,5207
+Tangancícuaro,15068
+Quintana Roo,151243
+Papalotla,22969
+Cosío,4898
+San Agustín Etla,3708
+Santa María del Río,13099
+Cuitzeo,10239
+Ojinaga,22128
+Amaxac de Guerrero,9114
+Yecapixtla,16811
+Coyotepec,2283
+Ecatzingo,7058
+Tianguistenco,13106
+Tlaltizapán,10563
+Otumba,10097
+Pueblo Viejo,14116
+San Pedro Pochutla,13685
+Tonanitla,6774
+Rincón de Romos,27988
+Jamapa,3928
+Pedro Escobedo,9946
+Piedras Negras,150178
+Ezequiel Montes,14053
+El Oro,5878
+Atotonilco el Alto,26874
+Cuautepec de Hinojosa,18835
+Cananea,31560
+Frontera,22795
+González,120944
+Ixtlahuacán del Río,6198
+Jaltenco,11093
+Puente de Ixtla,21074
+Suma,1861
+Sudzal,1261
+Santa Isabel Cholula,1899
+Tamuín,16318
+Poza Rica de Hidalgo,185242
+Tianguismanalco,5187
+San José del Rincón,79945
+Jáltipan,32778
+Tepetlaoxtoc,6123
+Ixil,3728
+Nanacamilpa de Mariano Arista,12177
+Chapa de Mota,4638
+Juanacatlán,9133
+San Andrés Tuxtla,61769
+San Sebastián Tutla,210
+ácatlán de Juárez,10461
+Villa Purificación,445
+Morelos,1655015
+La Huacana,9395
+San Bartolo Coyotepec,2283
+Tetecala,4893
+Santa María del Tule,7636
+Zumpahuacán,4450
+San Blas,1404
+El Arenal,1551
+Cerro Azul,22268
+Tampico Alto,2564
+Teapa,26548
+San Agustín de las Juntas,6923
+San Martín de las Pirámides,12812
+Tecuala,14511
+Mazatepec,3655
+Papantla,53546
+Santiago Tulantepec de Lugo Guerrero,16078
+Tlacotalpan,7600
+Yahualica de González Gallo,13655
+San Pablo Villa de Mitla,8167
+San Pablo del Monte,60001
+Panotla,7356
+San Miguel el Alto,23982
+Acatic,11890
+Acajete,1649
+Tuxcueca,3512
+Jalcomulco,2955
+Tezoyuca,1100
+Hidalgo,1185772
+Villa Guerrero,60001
+Magdalena,238431
+Villa de Zaachila,13959
+Canatlán,11495
+San Andrés Huayápam,4344
+Rioverde,53128
+Cerro de San Pedro,120
+Sanctórum de Lázaro Cárdenas,4731
+Erongarícuaro,2573
+Arroyo Seco,1425
+Mapastepec,17931
+Arandas,52175
+Paso de Ovejas,7468
+Perote,37516
+San Agustín Tlaxiaca,10496
+Chapantongo,1839
+Vicente Guerrero,60001
+Aculco,1823
+Santiago Papasquiaro,26121
+Naranjos Amatlán,20073
+Tepetitlán,1760
+Ixtapan del Oro,6349
+Jalpa de Méndez,15695
+Rosales,675773
+Tlalnepantla,653410
+Tempoal,12526
+Zapotlán de Juárez,4961
+Salvatierra,37203
+Atemajac de Brizuela,5457
+Tzompantepec,1869
+Balancán,13030
+Coatzintla,34036
+Mariano Escobedo,206081
+Actopan,29223
+Tarimoro,12188
+Reforma,26257
+Nopala de Villagrán,1065
+Pisaflores,2119
+Chiconcuac,21738
+San Salvador el Verde,2768
+Chiautla,11511
+Agua Prieta,77254
+Cunduacán,19824
+Umán,39611
+Jaumave,5633
+Santa María Atzompa,21788
+ácámbaro,57972
+Chignautla,11096
+San Francisco de los Romo,16124
+Atoyac,21407
+Tepeapulco,28556
+Villa de Etla,7285
+Acaponeta,19140
+Dr. Arroyo,9339
+Marqués de Comillas,9856
+Totolapan,4319
+Chapulco,6196
+Sahuayo,64431
+San Ignacio,61769
+Lagos de Moreno,98206
+Zaragoza,1434062
+Cuetzalan del Progreso,5785
+Apaseo el Alto,27991
+Villa Corona,7603
+TacAmbaro,25665
+Teotihuacán,22541
+Ozumba,16700
+Los Herreras,666
+Maravatío,34381
+Jerez,43064
+Alamo Temapache,25159
+Jiquipilco,1938
+Mixquiahuala de Juárez,25510
+Miahuatlán,13909
+Teabo,6115
+Tepetitla de Lardizábal,5974
+Ixtaczoquitlán,26187
+Tizimín,46971
+Soto la Marina,10620
+Alamos,9345
+Nombre de Dios,5302
+Cocotitlán,9365
+Tetela del Volcán,10199
+San Lorenzo Cacaotepec,7351
+San Juan Bautista Tuxtepec,101810
+Manlio Fabio Altamirano,5283
+Jonacatepec,8123
+Camarón de Tejeda,2106
+Tecozautla,5844
+Acayucan,50934
+Izúcar de Matamoros,42936
+Soyaniquilpan de Juárez,4287
+Cosamaloapan de Carpio,30577
+Compostela,14077
+Ameca,36156
+Tlalixtac de Cabrera,8881
+Opichén,4751
+Asunción Ixtaltepec,7203
+Misantla,26827
+Taxco de Alarcón,52217
+Centla,22795
+Empalme,13384
+San Raymundo Jalpan,1882
+Huimanguillo,27344
+PuruAndiro,30571
+Salvador Escalante,14359
+Telchac Pueblo,3517
+Jonuta,6899
+Apatzingán,99010
+Tototlán,12516
+Temascaltepec,2533
+Palizada,3089
+Moroleón,43200
+Sinanché,2563
+Casas,158027
+Palenque,42947
+Oluta,12709
+Totoltepec de Guerrero,911
+San Agustín Yatareni,3709
+Tepezalá,4511
+Fresnillo,120944
+Ixtlahuacán,6137
+Texcaltitlán,2648
+Paracho,18868
+Río Lagartos,2218
+Tuxtla Chico,7026
+Amecameca,31687
+Sinaloa,675773
+Villa de Arriaga,5426
+Cadereyta de Montes,13347
+Gral. Treviño,1800
+Pesquería,5465
+Apan,26642
+Santa Lucía del Camino,47356
+Almoloya de Alquisiras,1760
+Heroica Ciudad de Huajuapan de León,53043
+Tecolotlán,9189
+Cedral,15
+Acatzingo,25811
+Ecuandureo,4716
+Villa de Tezontepec,5214
+Loreto,14724
+San Miguel Xoxtla,11269
+Quiroga,14669
+General Cepeda,4382
+San Miguel de Horcasitas,476
+Salvador Alvarado,63743
+Teopisca,16240
+Hunucmá,24910
+Poncitlán,13581
+Zapotlanejo,32376
+Timilpan,978
+Gómez Farías,883
+Los Ramones,1169
+Ruíz,12947
+Teolocholco,16240
+Huixtla,32033
+Ucú,2601
+La Magdalena Tlaltelulco,16834
+Zinapécuaro,15875
+Guadalupe Victoria,17119
+Villa de Allende,1354
+Unión de San Antonio,7620
+Asientos,4517
+Atempan,6457
+ácaxochitlán,3910
+Iguala de la Independencia,118468
+Santiago Ixcuintla,18241
+Champotón,30881
+Hoctún,4686
+Bella Vista,19281
+Cuaxomulco,2755
+San Rafael,4379
+San Gabriel,12149
+Mina,4495
+Celestún,6810
+Purísima del Rincón,43512
+Escárcega,29477
+Villa Victoria,1010
+Puente Nacional,347
+Huajicori,3004
+Ahualulco de Mercado,15512
+Dzidzantún,7393
+Asunción Cacalotepec,791
+Cuilápam de Guerrero,12360
+Ixtlán del Río,23303
+Rafael Lucio,4097
+Chilchotla,18303
+Zapotiltic,22833
+Ixhuatlancillo,3245
+Uriangato,51382
+Camerino Z. Mendoza,35641
+Villaldama,2912
+Atitalaquia,6322
+Juchitán de Zaragoza,74825
+Ixmiquilpan,34814
+Tecamachalco,28679
+Encarnación de Díaz,25010
+Tahmek,3493
+La Trinitaria,9042
+Huauchinango,56206
+Felipe Carrillo Puerto,25744
+Tepeyanco,3223
+Santa María Apazco,432
+Tetepango,8705
+San Joaquín,8865
+Uayma,3126
+Armería,15923
+Isla Mujeres,12642
+Pinotepa de Don Luis,5692
+San Juan Bautista Guelache,855
+Ahuacatlán,6754
+Mineral del Chico,481
+Coyuca de Benítez,13566
+San Francisco del Rincón,71139
+Atlangatepec,480
+Jiménez,68111
+Jiquilpan,24233
+Axochiapan,17508
+Cotaxtla,1167
+Villa Corzo,10841
+Zacatlán,33736
+Villagrán,27079
+El Mante,84787
+Cintalapa,42467
+Etzatlán,13513
+Francisco I. Madero,26632
+Tepeaca,27449
+áyotlán,11724
+Aramberri,2538
+Tecolutla,4591
+Aconchi,713
+Valle Hermoso,48918
+Purépero,13856
+Amanalco,6519
+Jalpan de Serra,11010
+Pijijiapan,16917
+Isidro Fabela,2002
+Tlahuapan,4379
+áutlán de Navarro,45382
+Tekax,25751
+Casas Grandes,55553
+Concepción de Buenos Aires,4744
+Pabellón de Arteaga,28633
+Petatlán,21659
+Apazapan,686
+Santa Cruz de Juventino Rosas,42264
+San Cristóbal de la Barranca,859
+Tantoyuca,30587
+Villa de Cos,5759
+Chínipas,1934
+Rayones,361
+Jantetelco,4645
+Colotlán,13256
+Escuinapa,30790
+Coquimatlán,13358
+Concordia,8328
+Comondú,40935
+Zimatlán de Alvarez,10986
+Santa Isabel,29311
+Cortazar,61658
+Xaltocan,705
+Tixtla de Guerrero,22826
+Huehuetlán,4742
+Zacualpan,4893
+Tequila,29203
+Huautla de Jiménez,10528
+Dzoncauich,2318
+San Francisco Lachigoló,3338
+Temamatla,5633
+Pénjamo,40070
+Calera,32721
+Zimapán,13243
+Tinum,18000
+Dr. González,1988
+Singuilucan,4076
+Xicotepec,39803
+Los Reyes,85359
+Timucuy,3872
+Santa Ana Nopalucan,6848
+San Jerónimo Tecuanipan,2179
+Atoyac de Alvarez,21407
+Chilapa de Alvarez,31157
+Tlacolula de Matamoros,13821
+Teteles de Avila Castillo,4471
+Lerdo de Tejada,18640
+Jerécuaro,2766
+Río Blanco,40611
+Lagunillas,3753
+Chignahuapan,19608
+Camargo,40221
+Meoqui,22574
+Huaquechula,3005
+Almoloya,16509
+Huetamo,21864
+Cacalchén,6787
+Gustavo Díaz Ordaz,11523
+Salinas,156191
+Chilchota,7673
+Juárez Hidalgo,25510
+Nuevo Ideal,10876
+Galeana,653410
+Martínez de la Torre,60074
+Cuzamá,3721
+Villaflores,37237
+Nahuatzen,10283
+Tlatlauquitepec,484
+San Francisco de Borja,1157
+Huandacareo,6736
+Santo Domingo Tehuantepec,42082
+Cuautitlán de García Barragán,2597
+Huatabampo,30475
+Suchiapa,16637
+San Jerónimo Tlacochahuaya,2302
+Donato Guerra,29621
+Pichucalco,14212
+Tlalpujahua,3530
+Elota,15657
+Ciudad Fernández,32006
+General Plutarco Elías Calles,12849
+Huatusco,31305
+Izamal,25980
+Acateno,4481
+Mascota,8801
+Sabinas Hidalgo,33068
+Chalchicomula de Sesma,23824
+Tenango del Aire,5915
+Tlalixcoyan,3335
+Tolcayuca,6836
+Xaloztoc,10191
+Temax,6239
+Xicohtzinco,12255
+Nanchital de Lázaro Cárdenas del Río,25289
+Santa Ana,48030
+Rosario,65278
+Lamadrid,1801
+Axapusco,895
+Amacuzac,5368
+Zacatepec,21586
+San Lucas,68463
+Ajacuba,7245
+Teocelo,9967
+Contepec,4184
+Villanueva,12269
+Chavinda,6246
+San Antonio de la Cal,20198
+El Fuerte,12566
+Hopelchén,7295
+Aquismón,2127
+Almoloya del Río,9507
+Agua Dulce,36079
+San Pedro Mixtepec -Dto. 26 -,3816
+Poanas,10753
+Calvillo,19742
+CopAndaro,1479
+Tecali de Herrera,5156
+Tzucacab,9967
+Marín,72
+Moctezuma,4326
+Santo Tomás,1559
+Angostura,5086
+Calcahualco,1038
+Ayapango,6361
+Reyes Etla,1954
+Oriental,9957
+Atengo,3677
+Ciénega de Zimatlán,2753
+Dr. Belisario Domínguez,2911
+Ciudad Ixtepec,25381
+Jaral del Progreso,20457
+Higueras,1402
+Tzintzuntzan,3534
+Yuriria,25216
+Coahuayana,7307
+Nadadores,4343
+Peribán,15434
+Saucillo,11004
+Santiago Suchilquitongo,7276
+Tezontepec de Aldama,4731
+Nopaltepec,3467
+Ocampo,597511
+Buctzotz,7515
+Tocumbo,1799
+Técpan de Galeana,15119
+Urique,4
+Tamiahua,154
+Tamazunchale,24562
+Río Grande,12943
+Tejupilco,25631
+San Felipe Orizatlán,6686
+Mulegé,3851
+Zináparo,1040
+San Mateo Río Hondo,824
+Ixtlán,23303
+Nautla,3040
+Jalapa,424755
+Amatlán de los Reyes,9123
+Yaxcabá,3007
+San Juan Guelavía,3002
+Copala,506
+Batopilas,1220
+Acuitzio,6733
+Tepalcatepec,15221
+Atotonilco el Grande,7261
+Yaxkukul,2825
+San Pablo Huitzo,5519
+Santa María del Oro,5878
+Heroica Ciudad de Juchitán de Zaragoza,74825
+Panindícuaro,5565
+Ocuilan,1954
+Tlaquiltenango,18334
+Altotonga,19722
+Pinal de Amoles,2000
+Cansahcab,4293
+Ahualulco,15512
+Abejones,1009
+ZirAndaro,3254
+Ocosingo,41878
+San Luis de la Paz,49914
+San Pedro,1655015
+Gral. Bravo,5800
+Progreso de Obregón,17486
+Bocoyna,5026
+El Barrio de la Soledad,2422
+Omealca,3780
+Quitupan,1551
+Cerralvo,7169
+Sombrerete,21702
+San Matías Tlalancaleca,11076
