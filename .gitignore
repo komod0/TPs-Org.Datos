@@ -105,3 +105,12 @@ venv.bak/
 
 tp1/train.csv
 
+
+tp2/data/train.csv
+tp2/data/test.csv
+
+tp2/data/features/descr_vectorizadas_train_300d.csv
+tp2/data/features/descr_vectorizadas_test_300d.csv
+
+tp2/notebooks/utilidades/tags
+
