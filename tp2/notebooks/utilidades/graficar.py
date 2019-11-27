@@ -2,10 +2,10 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import FormatStrFormatter  # Para formatear los ejes
 
 
-def ver_dispersion(y_test, prediction):
+def ver_dispersion(y_test, prediction, nombre):
     plt.figure(figsize=(10, 10))
     plt.scatter(y_test, prediction, alpha=0.2)
-    plt.title("Dispersión: Valores Reales Vs Predicciones", fontsize=25)
+    plt.title("Dispersión de " + nombre, fontsize=25)
     plt.ylabel("Predicciones", fontsize=20)
     plt.xlabel("Valores reales", fontsize=20)
     plt.xticks(rotation=30, fontsize=17, ha="right")
