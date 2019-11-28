@@ -2,10 +2,10 @@
 
 ---
 
-| ||
-|| |_
 
----
+
+
+
 
 ### Informe:
 https://docs.google.com/document/d/1m7ntuYK5zEhxc2sRn5t1TL4rSYrlW3rVZZPZuIJDsRA
